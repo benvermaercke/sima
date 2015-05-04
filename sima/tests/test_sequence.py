@@ -5,7 +5,7 @@ from builtins import object
 # https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
 
 # use assert_() and related functions over the built in assert to ensure tests
-# run properly, regaurdless of how python is started.
+# run properly, regardless of how python is started.
 from numpy.testing import (
     assert_,
     assert_equal,

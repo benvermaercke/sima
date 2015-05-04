@@ -5,3 +5,6 @@
 *.so
 *archive*.ui
 build
+*.pkl
+*.npz
+*.tif

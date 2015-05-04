@@ -1,0 +1,307 @@
+/Users/benvermaercke/anaconda/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+  warnings.warn(msg)
+running install
+running build
+running build_py
+creating build/lib.macosx-10.5-x86_64-2.7
+creating build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/__init__.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/extract.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/imaging.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/imaging_parameters.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/ROI.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/sequence.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+copying sima/spikes.py -> build/lib.macosx-10.5-x86_64-2.7/sima
+creating build/lib.macosx-10.5-x86_64-2.7/sima/misc
+copying sima/misc/__init__.py -> build/lib.macosx-10.5-x86_64-2.7/sima/misc
+copying sima/misc/align.py -> build/lib.macosx-10.5-x86_64-2.7/sima/misc
+copying sima/misc/convert.py -> build/lib.macosx-10.5-x86_64-2.7/sima/misc
+copying sima/misc/imagej.py -> build/lib.macosx-10.5-x86_64-2.7/sima/misc
+copying sima/misc/tifffile.py -> build/lib.macosx-10.5-x86_64-2.7/sima/misc
+creating build/lib.macosx-10.5-x86_64-2.7/sima/motion
+copying sima/motion/__init__.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion
+copying sima/motion/frame_align.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion
+copying sima/motion/hmm.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion
+copying sima/motion/motion.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion
+copying sima/motion/transform.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion
+package init file 'sima/motion/tests/__init__.py' not found (or not a regular file)
+creating build/lib.macosx-10.5-x86_64-2.7/sima/motion/tests
+copying sima/motion/tests/test_frame_align.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion/tests
+copying sima/motion/tests/test_hmm.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion/tests
+copying sima/motion/tests/test_motion.py -> build/lib.macosx-10.5-x86_64-2.7/sima/motion/tests
+creating build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/__init__.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/ca1pc.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/normcut.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/oPCA.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/segment.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+copying sima/segment/stica.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment
+package init file 'sima/segment/tests/__init__.py' not found (or not a regular file)
+creating build/lib.macosx-10.5-x86_64-2.7/sima/segment/tests
+copying sima/segment/tests/test_normcut.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment/tests
+copying sima/segment/tests/test_oPCA.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment/tests
+copying sima/segment/tests/test_segment.py -> build/lib.macosx-10.5-x86_64-2.7/sima/segment/tests
+creating build/lib.macosx-10.5-x86_64-2.7/sima/tests
+copying sima/tests/test_extract.py -> build/lib.macosx-10.5-x86_64-2.7/sima/tests
+copying sima/tests/test_imaging.py -> build/lib.macosx-10.5-x86_64-2.7/sima/tests
+copying sima/tests/test_ROI.py -> build/lib.macosx-10.5-x86_64-2.7/sima/tests
+copying sima/tests/test_sequence.py -> build/lib.macosx-10.5-x86_64-2.7/sima/tests
+copying sima/tests/test_spikes.py -> build/lib.macosx-10.5-x86_64-2.7/sima/tests
+creating build/lib.macosx-10.5-x86_64-2.7/sima/tests/data
+creating build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example.sima
+copying sima/tests/data/example.sima/dataset.pkl -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example.sima
+copying sima/tests/data/example.sima/displacements.pkl -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example.sima
+copying sima/tests/data/example.tif -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data
+copying sima/tests/data/example.h5 -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data
+copying sima/tests/data/example-volume.h5 -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data
+copying sima/tests/data/imageJ_ROIs.zip -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data
+creating build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example-tiffs
+copying sima/tests/data/example-tiffs/0.tif -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example-tiffs
+copying sima/tests/data/example-tiffs/1.tif -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example-tiffs
+copying sima/tests/data/example-tiffs/2.tif -> build/lib.macosx-10.5-x86_64-2.7/sima/tests/data/example-tiffs
+package init file 'sima/motion/tests/__init__.py' not found (or not a regular file)
+package init file 'sima/segment/tests/__init__.py' not found (or not a regular file)
+running build_ext
+building 'sima.motion._motion' extension
+creating build/temp.macosx-10.5-x86_64-2.7
+creating build/temp.macosx-10.5-x86_64-2.7/sima
+creating build/temp.macosx-10.5-x86_64-2.7/sima/motion
+gcc -fno-strict-aliasing -I/Users/benvermaercke/anaconda/include -arch x86_64 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include -I/Users/benvermaercke/anaconda/include/python2.7 -c sima/motion/_motion.c -o build/temp.macosx-10.5-x86_64-2.7/sima/motion/_motion.o
+In file included from sima/motion/_motion.c:264:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1804:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: "Using deprecated NumPy API, disable it by "          "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it by " \
+ ^
+In file included from sima/motion/_motion.c:264:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: unused function '_import_array' [-Wunused-function]
+_import_array(void)
+^
+In file included from sima/motion/_motion.c:265:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ufuncobject.h:317:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/__ufunc_api.h:241:1: warning: unused function '_import_umath' [-Wunused-function]
+_import_umath(void)
+^
+sima/motion/_motion.c:11582:28: warning: unused function '__Pyx_PyObject_AsString' [-Wunused-function]
+static CYTHON_INLINE char* __Pyx_PyObject_AsString(PyObject* o) {
+                           ^
+sima/motion/_motion.c:11579:32: warning: unused function '__Pyx_PyUnicode_FromString' [-Wunused-function]
+static CYTHON_INLINE PyObject* __Pyx_PyUnicode_FromString(const char* c_str) {
+                               ^
+sima/motion/_motion.c:327:29: warning: unused function '__Pyx_Py_UNICODE_strlen' [-Wunused-function]
+static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
+                            ^
+sima/motion/_motion.c:11719:33: warning: unused function '__Pyx_PyInt_FromSize_t' [-Wunused-function]
+static CYTHON_INLINE PyObject * __Pyx_PyInt_FromSize_t(size_t ival) {
+                                ^
+sima/motion/_motion.c:10286:32: warning: unused function '__Pyx_GetItemInt_List_Fast' [-Wunused-function]
+static CYTHON_INLINE PyObject *__Pyx_GetItemInt_List_Fast(PyObject *o, Py_ssize_t i,
+                               ^
+sima/motion/_motion.c:10300:32: warning: unused function '__Pyx_GetItemInt_Tuple_Fast' [-Wunused-function]
+static CYTHON_INLINE PyObject *__Pyx_GetItemInt_Tuple_Fast(PyObject *o, Py_ssize_t i,
+                               ^
+sima/motion/_motion.c:11224:48: warning: unused function '__pyx_t_float_complex_from_parts' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __pyx_t_float_complex_from_parts(float x, float y) {
+                                               ^
+sima/motion/_motion.c:11234:30: warning: unused function '__Pyx_c_eqf' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_eqf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                             ^
+sima/motion/_motion.c:11237:48: warning: unused function '__Pyx_c_sumf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_sumf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/motion/_motion.c:11243:48: warning: unused function '__Pyx_c_difff' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_difff(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/motion/_motion.c:11255:48: warning: unused function '__Pyx_c_quotf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_quotf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/motion/_motion.c:11262:48: warning: unused function '__Pyx_c_negf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_negf(__pyx_t_float_complex a) {
+                                               ^
+sima/motion/_motion.c:11268:30: warning: unused function '__Pyx_c_is_zerof' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_is_zerof(__pyx_t_float_complex a) {
+                             ^
+sima/motion/_motion.c:11271:48: warning: unused function '__Pyx_c_conjf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_conjf(__pyx_t_float_complex a) {
+                                               ^
+sima/motion/_motion.c:11285:52: warning: unused function '__Pyx_c_powf' [-Wunused-function]
+        static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_powf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                                   ^
+sima/motion/_motion.c:11344:49: warning: unused function '__pyx_t_double_complex_from_parts' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(double x, double y) {
+                                                ^
+sima/motion/_motion.c:11354:30: warning: unused function '__Pyx_c_eq' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_eq(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                             ^
+sima/motion/_motion.c:11357:49: warning: unused function '__Pyx_c_sum' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_sum(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/motion/_motion.c:11363:49: warning: unused function '__Pyx_c_diff' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_diff(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/motion/_motion.c:11375:49: warning: unused function '__Pyx_c_quot' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_quot(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/motion/_motion.c:11382:49: warning: unused function '__Pyx_c_neg' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_neg(__pyx_t_double_complex a) {
+                                                ^
+sima/motion/_motion.c:11388:30: warning: unused function '__Pyx_c_is_zero' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_is_zero(__pyx_t_double_complex a) {
+                             ^
+sima/motion/_motion.c:11391:49: warning: unused function '__Pyx_c_conj' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_conj(__pyx_t_double_complex a) {
+                                                ^
+sima/motion/_motion.c:11405:53: warning: unused function '__Pyx_c_pow' [-Wunused-function]
+        static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_pow(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                    ^
+sima/motion/_motion.c:7400:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew1' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {
+                               ^
+sima/motion/_motion.c:7450:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew2' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
+                               ^
+sima/motion/_motion.c:7500:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew3' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
+                               ^
+sima/motion/_motion.c:7550:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew4' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {
+                               ^
+sima/motion/_motion.c:7600:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew5' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {
+                               ^
+sima/motion/_motion.c:8367:27: warning: unused function '__pyx_f_5numpy_set_array_base' [-Wunused-function]
+static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+                          ^
+sima/motion/_motion.c:8455:32: warning: unused function '__pyx_f_5numpy_get_array_base' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__pyx_v_arr) {
+                               ^
+34 warnings generated.
+gcc -bundle -undefined dynamic_lookup -L/Users/benvermaercke/anaconda/lib -arch x86_64 -arch x86_64 build/temp.macosx-10.5-x86_64-2.7/sima/motion/_motion.o -L/Users/benvermaercke/anaconda/lib -o build/lib.macosx-10.5-x86_64-2.7/sima/motion/_motion.so
+building 'sima.segment._opca' extension
+creating build/temp.macosx-10.5-x86_64-2.7/sima/segment
+gcc -fno-strict-aliasing -I/Users/benvermaercke/anaconda/include -arch x86_64 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include -I/Users/benvermaercke/anaconda/include/python2.7 -c sima/segment/_opca.c -o build/temp.macosx-10.5-x86_64-2.7/sima/segment/_opca.o
+In file included from sima/segment/_opca.c:264:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1804:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: "Using deprecated NumPy API, disable it by "          "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it by " \
+ ^
+In file included from sima/segment/_opca.c:264:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: unused function '_import_array' [-Wunused-function]
+_import_array(void)
+^
+In file included from sima/segment/_opca.c:265:
+In file included from /Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/ufuncobject.h:317:
+/Users/benvermaercke/anaconda/lib/python2.7/site-packages/numpy/core/include/numpy/__ufunc_api.h:241:1: warning: unused function '_import_umath' [-Wunused-function]
+_import_umath(void)
+^
+sima/segment/_opca.c:8804:28: warning: unused function '__Pyx_PyObject_AsString' [-Wunused-function]
+static CYTHON_INLINE char* __Pyx_PyObject_AsString(PyObject* o) {
+                           ^
+sima/segment/_opca.c:8801:32: warning: unused function '__Pyx_PyUnicode_FromString' [-Wunused-function]
+static CYTHON_INLINE PyObject* __Pyx_PyUnicode_FromString(const char* c_str) {
+                               ^
+sima/segment/_opca.c:327:29: warning: unused function '__Pyx_Py_UNICODE_strlen' [-Wunused-function]
+static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
+                            ^
+sima/segment/_opca.c:8941:33: warning: unused function '__Pyx_PyInt_FromSize_t' [-Wunused-function]
+static CYTHON_INLINE PyObject * __Pyx_PyInt_FromSize_t(size_t ival) {
+                                ^
+sima/segment/_opca.c:7468:32: warning: unused function '__Pyx_GetItemInt_List_Fast' [-Wunused-function]
+static CYTHON_INLINE PyObject *__Pyx_GetItemInt_List_Fast(PyObject *o, Py_ssize_t i,
+                               ^
+sima/segment/_opca.c:7482:32: warning: unused function '__Pyx_GetItemInt_Tuple_Fast' [-Wunused-function]
+static CYTHON_INLINE PyObject *__Pyx_GetItemInt_Tuple_Fast(PyObject *o, Py_ssize_t i,
+                               ^
+sima/segment/_opca.c:8325:48: warning: unused function '__pyx_t_float_complex_from_parts' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __pyx_t_float_complex_from_parts(float x, float y) {
+                                               ^
+sima/segment/_opca.c:8335:30: warning: unused function '__Pyx_c_eqf' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_eqf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                             ^
+sima/segment/_opca.c:8338:48: warning: unused function '__Pyx_c_sumf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_sumf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/segment/_opca.c:8344:48: warning: unused function '__Pyx_c_difff' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_difff(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/segment/_opca.c:8356:48: warning: unused function '__Pyx_c_quotf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_quotf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                               ^
+sima/segment/_opca.c:8363:48: warning: unused function '__Pyx_c_negf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_negf(__pyx_t_float_complex a) {
+                                               ^
+sima/segment/_opca.c:8369:30: warning: unused function '__Pyx_c_is_zerof' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_is_zerof(__pyx_t_float_complex a) {
+                             ^
+sima/segment/_opca.c:8372:48: warning: unused function '__Pyx_c_conjf' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_conjf(__pyx_t_float_complex a) {
+                                               ^
+sima/segment/_opca.c:8386:52: warning: unused function '__Pyx_c_powf' [-Wunused-function]
+        static CYTHON_INLINE __pyx_t_float_complex __Pyx_c_powf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
+                                                   ^
+sima/segment/_opca.c:8445:49: warning: unused function '__pyx_t_double_complex_from_parts' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(double x, double y) {
+                                                ^
+sima/segment/_opca.c:8455:30: warning: unused function '__Pyx_c_eq' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_eq(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                             ^
+sima/segment/_opca.c:8458:49: warning: unused function '__Pyx_c_sum' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_sum(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/segment/_opca.c:8464:49: warning: unused function '__Pyx_c_diff' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_diff(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/segment/_opca.c:8476:49: warning: unused function '__Pyx_c_quot' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_quot(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                ^
+sima/segment/_opca.c:8483:49: warning: unused function '__Pyx_c_neg' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_neg(__pyx_t_double_complex a) {
+                                                ^
+sima/segment/_opca.c:8489:30: warning: unused function '__Pyx_c_is_zero' [-Wunused-function]
+    static CYTHON_INLINE int __Pyx_c_is_zero(__pyx_t_double_complex a) {
+                             ^
+sima/segment/_opca.c:8492:49: warning: unused function '__Pyx_c_conj' [-Wunused-function]
+    static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_conj(__pyx_t_double_complex a) {
+                                                ^
+sima/segment/_opca.c:8506:53: warning: unused function '__Pyx_c_pow' [-Wunused-function]
+        static CYTHON_INLINE __pyx_t_double_complex __Pyx_c_pow(__pyx_t_double_complex a, __pyx_t_double_complex b) {
+                                                    ^
+sima/segment/_opca.c:8580:27: warning: function '__Pyx_PyInt_As_long' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {
+                          ^
+sima/segment/_opca.c:4849:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew1' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {
+                               ^
+sima/segment/_opca.c:4902:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew2' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
+                               ^
+sima/segment/_opca.c:4955:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew3' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
+                               ^
+sima/segment/_opca.c:5008:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew4' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {
+                               ^
+sima/segment/_opca.c:5061:32: warning: unused function '__pyx_f_5numpy_PyArray_MultiIterNew5' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {
+                               ^
+sima/segment/_opca.c:5834:27: warning: unused function '__pyx_f_5numpy_set_array_base' [-Wunused-function]
+static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+                          ^
+sima/segment/_opca.c:5925:32: warning: unused function '__pyx_f_5numpy_get_array_base' [-Wunused-function]
+static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__pyx_v_arr) {
+                               ^
+35 warnings generated.
+gcc -bundle -undefined dynamic_lookup -L/Users/benvermaercke/anaconda/lib -arch x86_64 -arch x86_64 build/temp.macosx-10.5-x86_64-2.7/sima/segment/_opca.o -L/Users/benvermaercke/anaconda/lib -o build/lib.macosx-10.5-x86_64-2.7/sima/segment/_opca.so
+running install_lib
+copying build/lib.macosx-10.5-x86_64-2.7/sima/motion/_motion.so -> /Users/benvermaercke/CoxLab/sima/build/testenv/lib/python2.7/site-packages/sima/motion
+copying build/lib.macosx-10.5-x86_64-2.7/sima/segment/_opca.so -> /Users/benvermaercke/CoxLab/sima/build/testenv/lib/python2.7/site-packages/sima/segment
+running install_egg_info
+Removing /Users/benvermaercke/CoxLab/sima/build/testenv/lib/python2.7/site-packages/sima-1.2.0-py2.7.egg-info
+Writing /Users/benvermaercke/CoxLab/sima/build/testenv/lib/python2.7/site-packages/sima-1.2.0-py2.7.egg-info
